@@ -2,7 +2,8 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    overflow:hidden;
+    overflow: hidden;
+    
 
 }
 
@@ -26,6 +27,11 @@
     background-color:black ;
     color:white;
 }
+img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
 
 .header{
     min-height: 100vh;
@@ -36,9 +42,13 @@
     color:white;
 }
 
+.bod{
+    max-height: 100vh;
+}
 
-.row{
-    margin-top: 100px;
+
+.dash{
+    margin-top: 50px;
 }
 
 .login-form h1{
@@ -56,10 +66,11 @@ input{
 .login-form input{
     font-size: 16px;
     width:90%;
-    margin:auto;
+    margin:20px 0;
     padding:15px 10px;
     outline:none;
     border-radius: 10px;
+    border:1px solid;
 }
 
 .login-form button{
@@ -67,9 +78,13 @@ input{
     font-weight:400;
     margin: 25px 0;
     padding: 10px 15px;
-    width:30%;
+    width:90%;
     border-radius: 10px;
     border: 2px solid black;
+    display:inline-block
+}
+
+.login{
     background-color: black;
     color:white;
 
@@ -83,6 +98,12 @@ label{
     margin:15px 0;
     display: inline-block;
 
+}
+.login-form p{
+    color:black;
+}
+.or{
+    text-align: center;
 }
 
 
